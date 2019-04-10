@@ -9,5 +9,5 @@ test('Hello World: hello should greet the world', () => {
 test('mpsq', () => {
   let teee = 'fux'
   testmods.add(teee)
-  expect(testmods.get(0)).toEqual(teee)
+  expect(testmods.get(0)).toEqual('1')
 })
