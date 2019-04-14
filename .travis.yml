@@ -2,4 +2,5 @@ language: node_js
 node_js:
 - "10.14"
 deploy:
-provider: azure_web_apps
+  provider: azure_web_apps
+  verbose: true
